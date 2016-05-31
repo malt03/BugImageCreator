@@ -19,7 +19,7 @@ It is useful for creating a debugging library.
   s.homepage         = 'https://github.com/malt03/BugImageCreator'
   s.screenshots      = 'https://raw.githubusercontent.com/malt03/BugImageCreator/master/Screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Koji Murata' => 'koji.murata@dena.com' }
+  s.author           = { 'Koji Murata' => 'malt.koji@gmail.com' }
   s.source           = { :git => 'https://github.com/malt03/BugImageCreator.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
