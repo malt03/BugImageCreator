@@ -15,6 +15,7 @@
 		CDBAA8993D6D6BDA12CC1BBABD1DF24F /* Pods-BugImageCreator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 623010A6DE94C198CC5BDB488DF77894 /* Pods-BugImageCreator_Example-dummy.m */; };
 		ECEF23FB089F730C4C9FEDB7E15CFF70 /* Pods-BugImageCreator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 461FFF2D4FF2D27BA757F92417F85573 /* Pods-BugImageCreator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED40DD631CFD8AB600A52FB7 /* BugImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40DD621CFD8AB600A52FB7 /* BugImageCreator.swift */; };
+		ED40DD651CFD913D00A52FB7 /* BugImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40DD641CFD913D00A52FB7 /* BugImageView.swift */; };
 		FAC39F195EF3B0EE3C39534690191BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		FC9D0E75FBD353251288C5859BAD566D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		E70AC1FC0E6FABBEEDA8566C832CD381 /* Pods_BugImageCreator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BugImageCreator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CE26C9D228D28D46C4E03C5A846F45 /* Pods-BugImageCreator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BugImageCreator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED40DD621CFD8AB600A52FB7 /* BugImageCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugImageCreator.swift; sourceTree = "<group>"; };
+		ED40DD641CFD913D00A52FB7 /* BugImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugImageView.swift; sourceTree = "<group>"; };
 		EF5C9F987C5075FECAD5F8359A75E298 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F738488646D309C578F8E2431D9722F6 /* Pods-BugImageCreator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BugImageCreator_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				ED40DD621CFD8AB600A52FB7 /* BugImageCreator.swift */,
+				ED40DD641CFD913D00A52FB7 /* BugImageView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED40DD651CFD913D00A52FB7 /* BugImageView.swift in Sources */,
 				6A2F4B7AEA3AC67D1C1A468C6ACD884B /* BugImageCreator-dummy.m in Sources */,
 				ED40DD631CFD8AB600A52FB7 /* BugImageCreator.swift in Sources */,
 			);

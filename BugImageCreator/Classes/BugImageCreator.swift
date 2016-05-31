@@ -8,7 +8,7 @@
 import UIKit
 
 public class BugImageCreator {
-  public class func getChacheOrCreate(size size: CGFloat, lineWidth: CGFloat, color: UIColor) -> UIImage {
+  public class func getCacheOrCreate(size size: CGFloat, lineWidth: CGFloat, color: UIColor) -> UIImage {
     guard let url = cacheURL(size, lineWidth, color) else { return create(size: size, lineWidth: lineWidth, color: color) }
 
     guard let data = NSData(contentsOfURL: url),
