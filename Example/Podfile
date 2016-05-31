@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BugImageCreator_Example' do
+  pod 'BugImageCreator', :path => '../'
+
+  target 'BugImageCreator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
