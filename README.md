@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Usage
 
 ```swift
-BugImageCreator.getChacheOrCreate(size: 50, lineWidth: 1, color: .blackColor()) // return UIImage
+BugImageCreator.getCacheOrCreate(size: 50, lineWidth: 1, color: .blackColor()) // return UIImage
 ```
 
 ## Installation
