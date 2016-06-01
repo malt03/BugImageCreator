@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="size">
+                            <userDefinedRuntimeAttribute type="number" keyPath="bugSize">
                                 <real key="value" value="400"/>
                             </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                <color key="value" red="0.98668283219999997" green="0.16138248150000001" blue="0.3429243267" alpha="1" colorSpace="calibratedRGB"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <userDefinedRuntimeAttribute type="number" keyPath="bugLineWidth">
                                 <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bugColor">
+                                <color key="value" red="0.98668283219999997" green="0.16138248150000001" blue="0.3429243267" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
