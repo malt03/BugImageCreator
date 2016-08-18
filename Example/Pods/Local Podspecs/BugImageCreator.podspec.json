@@ -1,9 +1,10 @@
 {
   "name": "BugImageCreator",
-  "version": "0.1.0",
-  "summary": "A short description of BugImageCreator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BugImageCreator",
+  "version": "0.3.0",
+  "summary": "Easy to create a bug image.",
+  "description": "This pod is a pod to create a bug image.\nIt is useful for creating a debugging library.",
+  "homepage": "https://github.com/malt03/BugImageCreator",
+  "screenshots": "https://raw.githubusercontent.com/malt03/BugImageCreator/master/Screenshot.png",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +13,8 @@
     "Koji Murata": "malt.koji@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BugImageCreator.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/malt03/BugImageCreator.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"

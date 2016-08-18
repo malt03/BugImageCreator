@@ -1,5 +1,5 @@
 PODS:
-  - BugImageCreator (0.1.0)
+  - BugImageCreator (0.3.0)
 
 DEPENDENCIES:
   - BugImageCreator (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BugImageCreator: eec4c09e430c1ac51ac0fce7bb138cd1afe609ff
+  BugImageCreator: df4712f25538333550477121b5499a0aaf46479f
 
 PODFILE CHECKSUM: ebe611ce1e0a6c3d8b576b274cd8800e9ae819da
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1
