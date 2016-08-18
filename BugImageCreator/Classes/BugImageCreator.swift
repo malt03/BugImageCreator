@@ -8,12 +8,12 @@
 import UIKit
 
 open class BugImageCreator {
-  open class func drawToCurrentContext(size s: CGFloat, center: CGPoint, lineWidth: CGFloat, color: UIColor) {
+  open class func drawToCurrentContext(size: CGFloat, center: CGPoint, lineWidth: CGFloat, color: UIColor) {
     guard let context = UIGraphicsGetCurrentContext() else { return }
     
     let cx = center.x
-    let cy = center.y + s / 10
-    let r = s * 3 / 8 - lineWidth / 2
+    let cy = center.y + size / 10
+    let r = size * 3 / 8 - lineWidth / 2
     let hr = r / 2
     let a = r / 5
     let f = r / 3
@@ -81,22 +81,22 @@ open class BugImageCreator {
       let unscale = UIImage(data: data),
       let cgImage = unscale.cgImage else {
       let i = create(size: size, lineWidth: lineWidth, color: color)
-      save(i, url: url)
+      save(i, url)
       return i
     }
     
     return UIImage(cgImage: cgImage, scale: UIScreen.main.scale, orientation: .up)
   }
   
-  open class func create(size s: CGFloat, lineWidth: CGFloat, color: UIColor) -> UIImage {
-    UIGraphicsBeginImageContextWithOptions(CGSize(width: s, height: s), false, 0)
+  open class func create(size: CGFloat, lineWidth: CGFloat, color: UIColor) -> UIImage {
+    UIGraphicsBeginImageContextWithOptions(CGSize(width: size, height: size), false, 0)
     
-    drawToCurrentContext(size: s, center: CGPoint(x: s / 2, y: s / 2), lineWidth: lineWidth, color: color)
+    drawToCurrentContext(size: size, center: CGPoint(x: size / 2, y: size / 2), lineWidth: lineWidth, color: color)
     
     return UIGraphicsGetImageFromCurrentImageContext()!
   }
   
-  fileprivate class func save(_ image: UIImage, url: URL) {
+  fileprivate class func save(_ image: UIImage, _ url: URL) {
     guard let data = UIImagePNGRepresentation(image) else { return }
     try? data.write(to: url, options: [.atomic])
   }
