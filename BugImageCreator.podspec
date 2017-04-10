@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BugImageCreator'
-  s.version          = '0.4.0'
+  s.version          = '1.0.0'
   s.summary          = 'Easy to create a bug image.'
 
   s.description      = <<-DESC
