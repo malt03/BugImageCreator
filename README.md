@@ -3,6 +3,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/BugImageCreator.svg?style=flat)](http://cocoapods.org/pods/BugImageCreator)
 ![Language](https://img.shields.io/badge/language-Swift%203.1-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/BugImageCreator.svg?style=flat)](http://cocoapods.org/pods/BugImageCreator)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![License](https://img.shields.io/github/license/malt03/BugImageCreator.svg?style=flat)
 
 ![Screenshot](https://raw.githubusercontent.com/malt03/BugImageCreator/master/Screenshot.png)
