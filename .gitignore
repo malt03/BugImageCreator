@@ -23,7 +23,7 @@ DerivedData
 .bundle
 
 Carthage/*
-Carthage/BugImageCreator
+!Carthage/BugImageCreator
 *.framework.zip
 
 Example/Pods
