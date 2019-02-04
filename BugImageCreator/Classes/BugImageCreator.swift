@@ -97,7 +97,7 @@ open class BugImageCreator {
   }
 
   private class func save(_ image: UIImage, _ url: URL) {
-    guard let data = UIImagePNGRepresentation(image) else { return }
+    guard let data = image.pngData() else { return }
     try? data.write(to: url, options: [.atomic])
   }
 
