@@ -1,7 +1,7 @@
 # BugImageCreator
 
 [![Platform](https://img.shields.io/cocoapods/p/BugImageCreator.svg?style=flat)](http://cocoapods.org/pods/BugImageCreator)
-![Language](https://img.shields.io/badge/language-Swift%204.0.2-orange.svg)
+![Language](https://img.shields.io/badge/language-Swift%204.2.1-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/BugImageCreator.svg?style=flat)](http://cocoapods.org/pods/BugImageCreator)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![License](https://img.shields.io/github/license/malt03/BugImageCreator.svg?style=flat)
@@ -23,8 +23,8 @@ let image = BugImageCreator.getCacheOrCreate(size: 50, lineWidth: 1, color: .bla
 or
 
 ```swift
-public override func drawRect(rect: CGRect) {
-  super.drawRect(rect)
+public override func draw(_ rect: CGRect) {
+  super.draw(rect)
   BugImageCreator.drawToCurrentContext(size: rect.size, center: CGPoint(x: rect.width / 2, y: rect.height / 2), lineWidth: 1, color: .blackColor())
 }
 ```
