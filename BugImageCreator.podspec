@@ -23,6 +23,7 @@ It is useful for creating a debugging library.
   s.source           = { :git => 'https://github.com/malt03/BugImageCreator.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'BugImageCreator/Classes/**/*'
 end
